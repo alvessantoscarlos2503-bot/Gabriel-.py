@@ -1,0 +1,6 @@
+PROJETO EM ANDAMENTO
+
+Exercício: 03 - Condições com if e else
+Arquivos e pastas preservam os nomes escolhidos no Explorador.
+O projeto ainda possui conteúdo vazio, incompleto ou não validado.
+Você pode continuar no VS Code ou reabrir a plataforma neste navegador.
