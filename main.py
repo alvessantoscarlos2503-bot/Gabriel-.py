@@ -1,13 +1,18 @@
-nome = input("Digite seu nome: ").strip()
-idade = int(input("Digite sua idade: "))
-idade_minima = 14
+nome = input("Digite o nome do aluno:).strip()
+nota1 = float(input("Digite a primeira nota: ").replace(",", "."))
+nota2 = float(input("Digite a segunda nota: ").replace(",","."))
 
-print ("\--- VERIFICAÇÃO DE ACESSO ---")
-
-if idade >= idade_minima:
-    print(f"{nome}, seu acesso á oficina foi liberado.")
-    print("Vcoê já possui idade mínima exigida.")
+media = (nota1 + nota2) / 2
+          
+if media >= 7:
+             situacao = "Aprova"
+elif media >= 5:
+             situcao = "Recuperação"
 else:
-    anos_faltantes = idade_minma - idade
-    print(f"{nome}, seu acesso ainda não foi liberado.")
-    print(f"Faltam {anos_faltantes} anos(s) para atingir a idade mínima.")
+             situcao = "Reprovado"
+            
+print("\n--- RESULTADO ESCOLAR ---")
+prin(f"Aluno: {nome})
+print(f"Média: {media: .1f}")
+print(f"Situação: {situcao}")
+     
